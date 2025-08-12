@@ -1,3 +1,5 @@
+/*Generali*/
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,13 @@ body{
 p{
     margin: 30px 0 35px 0;
 }
+
+img{
+    margin-right:5px;
+    vertical-align: middle;
+}
+
+/*Colori testi*/
 
 .text_big{
     font-size: 40px;
@@ -52,10 +61,7 @@ p{
     color: #1e27a6;
 }
 
-img{
-    margin-right:5px;
-    vertical-align: middle;
-}
+/*Bottoni e label*/
 
 button{
     align-items: center;
@@ -71,7 +77,19 @@ button{
     padding: 10px 78px;
     border-radius: 20px;
     margin: 20px auto;
+    background-color: rgb(0, 0, 82);
+}
+
+.continue_bt:hover{
     background-color: blue;
+}
+
+.circle_bt{
+    border: 0;
+    border-radius: 50%;
+    padding: 25px 33px;
+    margin: 20px auto;
+    background-color: rgba(118, 118, 254, 0.738);
 }
 
 .label{
@@ -83,6 +101,8 @@ button{
     border-radius: 15px;
     margin: 15px auto;
 }
+
+/*Sfondo Label*/
 
 .bg_red{
     background-color: rgba(255, 0, 0, 0.162);
@@ -100,13 +120,7 @@ button{
     background-color: rgba(0, 0, 255, 0.138);
 }
 
-.circle_bt{
-    border: 0;
-    border-radius: 50%;
-    padding: 25px 33px;
-    margin: 20px auto;
-    background-color: rgba(118, 118, 254, 0.738);
-}
+/*Card*/
 
 .card{
     display: flex;
