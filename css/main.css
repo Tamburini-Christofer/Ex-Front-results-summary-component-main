@@ -10,11 +10,16 @@ body{
     font-size: 14px;
 }
 
+p{
+    margin: 30px 0 35px 0;
+}
+
 .text_big{
     font-size: 40px;
 }
 
 .text_great{
+    margin-top: 14px;
     font-size: 26px;
 }
 
@@ -27,12 +32,72 @@ body{
     color: white;
 }
 
-p{
-    margin: 20px 0;
+.text_black{
+    color: black;
+}
+
+.text_red{
+    color: red;
+}
+
+.text_yellow{
+    color: #e0b151;
+}
+
+.text_green{
+    color: #51bfa0;
+}
+
+.text_blue{
+    color: #1e27a6;
+}
+
+img{
+    margin-right:5px;
+    vertical-align: middle;
 }
 
 button{
+    align-items: center;
+    margin: 20px 0;
+    padding:10px 40px ;
+    border: 0px;
+    border-radius: 20px;
+}
 
+.continue_bt{
+    cursor: pointer;
+    color: white;
+    padding: 10px 78px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: blue;
+}
+
+.label{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+.bg_red{
+    background-color: rgba(255, 0, 0, 0.162);
+}
+
+.bg_yellow{
+    background-color: rgba(187, 255, 0, 0.091);
+}
+
+.bg_green{
+    background-color: rgba(7, 255, 7, 0.123);
+}
+
+.bg_blue{
+    background-color: rgba(0, 0, 255, 0.138);
 }
 
 .circle_bt{
@@ -57,7 +122,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
     width: 50%;
     padding: 20px;
 }
@@ -68,6 +133,12 @@ button{
 }
 
 .dx{
+      width: 50%;
+    padding: 20px;
     border-radius: 0px 20px 20px 0;
 }
+
+
+
+
 
